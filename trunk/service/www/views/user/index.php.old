@@ -1,0 +1,76 @@
+<?php
+
+use yii\helpers\Html;
+use yii\grid\GridView;
+use yii\widgets\ActiveForm;
+
+/* @var $this yii\web\View */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'Users';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+
+<div class="contextual">
+	
+	<?= Html::a('Create User', ['new'], ['class' => 'icon icon-add']) ?>
+	
+</div>
+
+<h2>Users</h2>
+
+<?php $form = ActiveForm::begin([
+    'id' => 'new_user',
+    'options' => ['class' => 'new_user'],
+    'fieldConfig' => [
+        'template' => "{label}\n{input}",
+        ],
+    ]); ?>
+    
+    <fieldset><legend>Filters</legend>
+    	
+    	<div class="row">
+    		
+	    	<?= $form->field($model, 'status')->dropDownList($list_user_status) ?>
+	    	
+	    	<?= $form->field($model, 'group_id')->dropDownList($list_group_id) ?>
+	    	
+	    	<?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
+    	
+    	</div>
+    	
+    </fieldset>
+    
+<?php ActiveForm::end(); ?>
+
+<div class="autoscroll">
+
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            //'id',
+            'login',
+            //'hashed_password',
+            'firstname',
+            'lastname',
+            'admin',
+            // 'status',
+            'last_login_on',
+            // 'language',
+            // 'auth_source_id',
+            // 'created_on',
+            'updated_on',
+            // 'type',
+            // 'identity_url:url',
+            // 'mail_notification',
+            // 'salt',
+            'must_change_passwd',
+            'passwd_changed_on',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+
+</div>
