@@ -17,3 +17,5 @@ $menuList = array(
 );
 \LaneWeChat\Core\Menu::setMenu($menuList);
 
+echo "menu set ok"
+
