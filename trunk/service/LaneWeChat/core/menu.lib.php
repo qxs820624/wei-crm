@@ -91,6 +91,11 @@ class Menu{
         //转换成JSON
         $data = json_encode($data);
         $data = urldecode($data);
+        
+        $log_file = fopen("log.txt", "a+");
+
+fwrite($log_file, $data."55555\n");
+
         //获取ACCESS_TOKEN
         $accessToken = AccessToken::getAccessToken();
         $url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token='.$accessToken;
@@ -98,6 +103,9 @@ class Menu{
         if($result['errcode'] == 0){
             return true;
         }
+        
+        fclose($log_file);
+        
         return $result;
     }
 
