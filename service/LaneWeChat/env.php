@@ -1,12 +1,14 @@
 <?php
+$log_file = fopen("log.txt", "a+");
+
+fwrite($log_file, "44444\n");
+
 include 'lanewechat.php';
 
 /**
  * 自定义菜单
  */
 //设置菜单
-
-$log_file = fopen("log.txt", "a+");
 
 fwrite($log_file, "11111\n");
 
@@ -30,4 +32,6 @@ echo "menu set ok"
 fwrite($log_file, "33333\n");
 
 fclose($log_file);
+
+?>
 
