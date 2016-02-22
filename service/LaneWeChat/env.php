@@ -27,7 +27,7 @@ $menuList = array(
 
 fwrite($log_file, "22222\n");
 
-echo "menu set ok"
+echo "menu set ok";
 
 fwrite($log_file, "33333\n");
 
