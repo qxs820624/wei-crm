@@ -5,6 +5,12 @@ include 'lanewechat.php';
  * 自定义菜单
  */
 //设置菜单
+
+$log_file = fopen("log.txt", "a+");
+
+fwrite($log_file, "11111\n");
+
+
 $menuList = array(
     array('id'=>'1', 'pid'=>'0',  'name'=>'神州产品', 'type'=>'click', 'code'=>'key_1'),
     array('id'=>'2', 'pid'=>'0',  'name'=>'需求论坛', 'type'=>'', 'code'=>'key_2'),
@@ -17,5 +23,11 @@ $menuList = array(
 );
 \LaneWeChat\Core\Menu::setMenu($menuList);
 
+fwrite($log_file, "22222\n");
+
 echo "menu set ok"
+
+fwrite($log_file, "33333\n");
+
+fclose($log_file);
 
