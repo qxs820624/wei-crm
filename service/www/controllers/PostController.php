@@ -15,7 +15,7 @@ use yii\helpers\ArrayHelper;
 /**
  * UserController implements the CRUD actions for User model.
  */
-class UserController extends Controller
+class PostController extends Controller
 {
 	  public $enableCsrfValidation = false;
 	
@@ -88,11 +88,9 @@ class UserController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionView($id)
-    {  
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
+    public function actionView()
+    {
+        return $this->render('view');
     }
     
     /**
