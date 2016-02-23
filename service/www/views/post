@@ -1,0 +1,1215 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+		<meta content="telephone=no" name="format-detection" />
+		<link rel="stylesheet" href="/themes/black/css/common.css?20130922" />
+		<link rel="stylesheet" href="/themes/black/css/css.css?20130922" />
+		<link rel="stylesheet" href="/themes/black/css/post-insert.css" />
+		<link rel="stylesheet" href="/themes/black/css/animate.min.css" />
+		<script src="/themes/black/js/jquery-1.6.3.min.js"></script>
+		<script src="/themes/black/js/js.js"></script>
+		<script src="/themes/black/js/upload.js"></script>
+		<script src="/themes/black/js/confirm.js"></script>
+		<script src="/themes/black/js/post-insert.js"></script>
+		<script src="/themes/black/js/menu.js"></script>
+		<script>
+			var outerImgDomain = 'http://ckimg.ijubuju.com/wxchenk';
+			var omenu;
+			document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+				if (parseInt($('#unhideToolbar').val()) !== 1) {
+					WeixinJSBridge.call('hideToolbar');
+				}
+			});
+			$(function() {
+				omenu = new menu({
+					id: 'home-menu',
+					target: $('.home_nav > .mid > .plus'),
+					bottom: 55,
+					list: [
+						{
+							title: '',
+							icon: '/themes/black/images/menu-icon-look-chenkun.png',
+							url: '/discuss/userDiscuss/id/0',
+							class: '',
+							style: ''
+						}, {
+							title: '',
+							icon: '/themes/black/images/menu-icon-insert-post.png',
+							url: 'javascript:void(0);',
+							class: 'send-post',
+							style: ''
+						},{
+							title: '',
+							icon: '/themes/black/images/menu-icon-goto-top.png',
+							url: 'javascript:gotoTop();',
+							class: '',
+							style: ''
+						}, {
+							title: '',
+							icon: '/themes/black/images/menu-icon-help-member.png',
+							url: '/discuss/detail/id/270',
+							class: '',
+							style: ''
+						}
+					]
+				});
+		
+				postInsert({
+					options:[{
+									target:$('.send-post'),
+									postUrl:'/discuss/append',
+									uploadUrl:'/discuss/uploadImage',
+									refreshUrl:'/discuss/index,/discuss,/discuss/',
+									power: true
+								}]					
+				});
+			});
+			function gotoTop() {
+				omenu.hide();
+				$('html, body').animate({scrollTop: 0});
+			}
+				
+			/*function insertPost() {
+				omenu.hide();
+				$('#post-insert-box').show();
+				$('#post-insert-box').removeClass('animated bounceOutDown');
+				$('#post-insert-box').addClass('animated bounceInUp');
+			}*/
+		</script>
+		<!--[if !IE]><!-->
+		<link rel="stylesheet" href="/themes/default/css/ie10.css" />
+		<script>
+			if (/*@cc_on!@*/false) {
+				document.documentElement.className += ' ie10';
+			}
+		</script>
+		<!--><![endif]-->
+	</head>
+	<body>
+		<div class="home_nav">
+			<div class="left">
+				<a class="home" href="/index/index"></a>
+				<a class="profile" href="/user/index"></a>
+			</div>
+			<div class="mid">
+				<a class="plus"></a>
+			</div>
+			<div class="right">
+				<a href="javascript:window.location.reload();" class="refresh"></a>
+				<a class="back" href="javascript:history.back();"></a>
+			</div>
+		</div>
+		<input type="hidden" id="page-discuss" value="1" />
+<div class="discuss-box">
+					<div class="item top">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/0" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/ck_avatar.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/0"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/3696">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2014-09-05 10:55</div>
+					<div class="txt">618618</div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 7.865px;"></span></div></div>
+					<div class="num">79&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">211</div>
+				<div class="good discuss-icon">104</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/0" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/ck_avatar.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/0"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/270">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2013-09-13 16:11</div>
+					<div class="txt">Hi</div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 0px;"></span></div></div>
+					<div class="num">385&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">206</div>
+				<div class="good discuss-icon">464</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/0" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/ck_avatar.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/0"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/3983">
+									<div class="pic pic-1">
+													<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/files/post/20141207/14179469392044_360x0.png);"></span>
+											</div>
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2014-12-07 18:04</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 8.905px;"></span></div></div>
+					<div class="num">63&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">190</div>
+				<div class="good discuss-icon">97</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/585093" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/user/20160125/14536537018457_80x80.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/585093"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4458">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-01 12:25</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 12.935px;"></span></div></div>
+					<div class="num">1&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">4</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/676064" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenkhttp://wx.qlogo.cn/mmopen/IyoNiaRcCRw0VLicSibrdMQvnX5X8nmEIQAtWaZzkahn87ucqsfJOJM1dSfnhhibIGXFuXEicESHBpK5dBiaug71EuDrUrMJpul0Wy/0);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/676064"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4468">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-19 08:35</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">1</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/0" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/ck_avatar.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/0"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/3110">
+									<div class="pic pic-1">
+													<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/discuss/20140304/13939016723115_360x0.jpg);"></span>
+											</div>
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2014-03-04 10:55</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 2.145px;"></span></div></div>
+					<div class="num">167&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">419</div>
+				<div class="good discuss-icon">203</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/678022" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/678022">  </a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4471">
+								<div class="con">
+					<div class="til">   </div>
+					<div class="time">2016-02-22 00:00</div>
+					<div class="txt"> </div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/677072" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/677072">16623658</a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4470">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-20 10:14</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/280682" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/280682"> PAWO Lee</a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4469">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-19 09:45</div>
+					<div class="txt">    =w=</div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">1</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/0" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/ck_avatar.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/0"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/1780">
+									<div class="pic pic-1">
+													<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/discuss/20131018/13820636096833_360x0.jpg);"></span>
+											</div>
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2013-10-18 10:33</div>
+					<div class="txt">?  1 = 115~214 </div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 11.57px;"></span></div></div>
+					<div class="num">22&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">223</div>
+				<div class="good discuss-icon">37</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/676250" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/676250">124654300</a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4467">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-18 23:14</div>
+					<div class="txt">  </div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/0" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/ck_avatar.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/0"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/1059">
+									<div class="pic pic-2">
+													<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/discuss/20130922/13798499395083_180x0.jpg);"></span>
+													<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/discuss/20130922/13798499829899_180x0.jpg);"></span>
+											</div>
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2013-09-22 19:39</div>
+					<div class="txt">
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O</div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 9.88px;"></span></div></div>
+					<div class="num">48&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">393</div>
+				<div class="good discuss-icon">69</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/669122" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/669122">L-Y-ing</a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4466">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-16 11:25</div>
+					<div class="txt">
+</div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/673157" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenkhttp://wx.qlogo.cn/mmopen/4XiaIdVeictNH5F1m84DbN2UllOsRXcemk9pqorg1hIiaINd37yyWWicKdR4pp8e0psPmFcxVvTfJ8Pdqicug6scjDl8mCiaic6fmicS/0);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/673157"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4465">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-15 23:18</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/669447" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/669447">79241780</a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4464">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-14 20:17</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 12.935px;"></span></div></div>
+					<div class="num">1&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/636450" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenkhttp://wx.qlogo.cn/mmopen/o8VzPgX0nDyD5kmd1eoVKoVsicRzpkqt4nzTLib7VS6WX6Lzs4MmEyKH24TZk5YWuicbZ5yzD2ryFuRLbibcicTiaagSn1pJKSU5Bl/0);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/636450"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4463">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-12 23:01</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/667111" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/667111"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4462">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-02-12 08:33</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">0</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/649645" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/649645">60609816</a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/4456">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2016-01-27 10:09</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">3</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/70989" >
+						<span style="background-image:url(/themes/default/images/default_avatar.png);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/70989"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/3018">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2014-02-04 18:07</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 13px;"></span></div></div>
+					<div class="num">0&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">1</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+					<div class="item">
+			<div class="up">
+				<div class="utop">TOP</div>
+				<div class="icon">
+					<a href="/discuss/userDiscuss/id/55534" >
+						<span style="background-image:url(http://ckimg.ijubuju.com/wxchenk/web/user/20140716/14055254175953_80x80.jpg);"></span>
+					</a>
+				</div>
+				<div class="nick">
+					<a href="/discuss/userDiscuss/id/55534"></a>
+				</div>
+				<div class="fav discuss-icon">FAVORITE</div>
+			</div>
+			<div class="cen g-link-item g-link-remove" href="/discuss/detail/id/3014">
+								<div class="con">
+					<div class="til"></div>
+					<div class="time">2014-02-04 14:43</div>
+					<div class="txt"></div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="heat">
+					<div class="icon"><div><span style="margin-top: 12.935px;"></span></div></div>
+					<div class="num">1&ordm;</div>
+				</div>
+				<div class="label discuss-icon">
+										&nbsp;				</div>
+				<div class="comment discuss-icon">1</div>
+				<div class="good discuss-icon">0</div>
+				<em></em>
+			</div>
+		</div>
+	</div>
+<div class="pagination"><a href="javascript:void(0);" class="prev no"></a><a href="/discuss/index/next/55913/page/2" class="next"></a><em></em></div>		<style>
+	.brow{
+		background: #eef1f5;
+		width: 100%;
+		z-index: 99999;
+		-webkit-box-shadow:0px 0px 5px #ccc;
+		opacity: 0;
+		position: fixed;
+		bottom: 55px;
+		left: 0;
+	}
+	/* brow menu ============================================================ */
+	.brow .brow-menu{
+		border-top: 1px #ccc solid;
+		border-bottom: 1px #ccc solid;
+		background:-webkit-gradient(linear, 0 0, 0 100%, from(#fdfefe), to(#f3f5f8));
+	}
+	.brow .brow-menu .menu{
+		width: 72%;
+		float: left;
+		border-right: 1px #fff solid;
+		overflow: hidden;
+	}
+	.brow .brow-menu .menu .g-link-on{
+		background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3f5f8), to(#fdfefe));
+	}
+	.brow .brow-menu .menu .item{
+		float: left;
+		list-style: none;
+		text-align: center;
+		padding: 13px 0 14px 0;
+		line-height: 1em;
+		font-size: 14px;
+		position: relative;
+		width: 100%;
+	}
+	.brow .brow-menu .menu .item .limg{
+		display: none;
+		position: absolute;
+		left: 10px;
+		top: 13px;
+		line-height: 0;
+		opacity: .3;
+	}
+	.brow .brow-menu .menu .item .rimg{
+		display: none;
+		position: absolute;
+		right: 10px;
+		top: 13px;
+		line-height: 0;
+		opacity: .3;
+	}
+	.brow .brow-menu .menu .item .limg img,
+	.brow .brow-menu .menu .item .rimg img{
+		width: 16px;
+		height: 16px;
+	}
+	.brow .brow-menu .menu .left .limg,
+	.brow .brow-menu .menu .center .limg,
+	.brow .brow-menu .menu .center .rimg,
+	.brow .brow-menu .menu .right .rimg{
+		display: block;
+	}
+	.brow .brow-menu .remove{
+		float: left;
+		width: 14%;
+		text-align: center;
+		padding: 13px 0 10px 0;
+		line-height: 1em;
+		border-left: 1px #ccc solid;
+	}
+	.brow .brow-menu .remove img{
+		width: 24px;
+	}
+	.brow .brow-menu .close{
+		float: left;
+		width: 13%;
+		text-align: center;
+		padding: 13px 0 10px 0;
+		line-height: 1em;
+		border-left: 1px #ccc solid;
+	}
+	.brow .brow-menu .close img{
+		width: 16px;
+		opacity: .5;
+	}
+	/* brow list ============================================================ */
+	.brow .brow-list{
+		position: relative;
+	}
+	.brow .brow-list .list{
+		overflow: hidden;
+	}
+	.brow .brow-list .list .item{
+		border-bottom: 1px #fff solid;
+		float: left;
+		position: relative;
+		width: 100%;
+	}
+	.brow .brow-list .list .item .datano,
+	.brow .brow-list .list .item .data{
+		float: left;
+		text-align: center;
+		border-top: 1px #fff solid;
+		border-bottom: 1px #ccc solid;
+		padding: 10px 0;
+		line-height: 1em;
+	}
+	.brow .brow-list .list .item .datano label,
+	.brow .brow-list .list .item .data label{
+		line-height: 26px;
+	}
+	.brow .brow-list .list .item .datano img,
+	.brow .brow-list .list .item .data img{
+		width: 24px;
+		height: 24px;
+	}
+	.brow .brow-list .list .dot{
+		clear: both;
+		margin: auto;
+	}
+	.brow .brow-list .list .dot td{
+		text-align: center;
+	}
+	.brow .brow-list .list .dot div{
+		float: left;
+		width: 10px;
+		height: 10px;
+		background: #ccc;
+		margin: 7px;
+		border-radius: 10px;
+	}
+	.brow .brow-list .list .dot div.on{
+		background: #666;
+	}
+	.brow .brow-list .resize {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 98;
+		opacity: 0;
+	}
+	.brow .brow-list .noresize {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 99;
+		opacity: 1;
+	}
+	/* brow area ============================================================ */
+	.brow-area{
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 998;
+		opacity: .2;
+		background: #000;
+	}
+</style>
+<div id="browTemplate" style="display:none;">
+	<div class="brow-menu">
+		<div class="menu" id="{browMenu}">
+			<div class="box">
+															<div class="item">
+							<div class="title"></div>
+						</div>
+												</div>
+		</div>
+		<div class="remove g-link-item g-link-remove" id="{browDelete}"><img src="/themes/default/images/brow-remove.png" /></div>
+		<div class="close g-link-item g-link-remove" id="{browClose}"><img src="/themes/default/images/brow-down.png" /></div>
+		<em></em>
+	</div>
+	<div class="brow-list">
+								<div class="list list1" id="{browList}0">
+				<div class="box">
+											<div class="item">
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948904931567.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948909257525.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948915817587.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948925422142.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948926848718.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948929245277.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948930621812.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948931817137.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948933054227.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948934332993.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948935669712.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948937118593.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948938551516.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948940057311.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948942869728.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948944441185.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948945779310.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948948183252.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948949396531.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948950916590.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948952371287.png" />
+																	</div>
+																					<em></em>
+						</div>
+											<div class="item">
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948953982689.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948955220975.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948960297466.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948961330116.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948964678196.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948966011337.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948967315744.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948968760819.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948969936973.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948971190322.png" />
+																	</div>
+															<div class="data g-link-item g-link-remove" _name="(#)" style="width:14.28571%;">
+																			<img src="http://ckimg.ijubuju.com/wxchenk/20130918/137948972521070.png" />
+																	</div>
+																						<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+															<div class="datano" style="width:14.28571%;">
+																			<img src="/themes/default/images/brow-blank.png" />
+																	</div>
+														<em></em>
+						</div>
+									</div>
+				<table class="dot">
+					<tr>
+						<td>
+															<div class="dot0 on"></div>
+															<div class="dot1"></div>
+														<em></em>
+						</td>
+					</tr>
+				</table>
+			</div>
+			</div>
+</div>
+<div id="browArea" class="brow-area"></div>
+<script src="/themes/default/js/swipe.js"></script>
+<script>
+</script>
+<script>
+	var buttonIds = ["post-insert-brow","browBtn"];
+	var textareaIds = ["post-insert-textarea","content"];
+	var swipeBrowMenu;
+	$(function() {
+		$(window).resize(function() {
+			$('#browDiv .brow-list').height($('#browDiv .list').height());
+			$('#browDiv .list').each(function() {
+				if (this.style.display === 'none') {
+					$(this).addClass('resize');
+					$(this).show();
+				} else if (!$(this).hasClass('resize')) {
+					$(this).addClass('noresize');
+				}
+			});
+		});
+		// 
+		for (var i in buttonIds) {
+			$('#' + buttonIds[i]).bind('click', function() {
+				// 
+				var template = $('#browTemplate').html();
+				template = template.replace(new RegExp('{browMenu}', 'g'), 'browMenu');
+				template = template.replace(new RegExp('{browDelete}', 'g'), 'browDelete');
+				template = template.replace(new RegExp('{browClose}', 'g'), 'browClose');
+				template = template.replace(new RegExp('{browList}', 'g'), 'browList');
+
+				// 
+				$('#browArea').before('<div class="brow" id="browDiv">' + template + '</div>');
+
+				// 
+				swipeBrowMenu = new Swipe(document.getElementById('browMenu'), {
+					continuous: false,
+					callback: function(index, elem) {
+						$('#browDiv .resize').hide();
+						$('#browDiv .resize').removeClass('resize');
+						$('#browDiv .noresize').removeClass('noresize');
+						$('#browDiv .list').hide();
+						$('#browList' + index).show();
+					}
+				});
+
+				// 
+				$('#browDiv .list').each(function() {
+					var $this = $(this);
+					new Swipe(this, {
+						callback: function(index, elem) {
+							$this.find('.dot div').removeClass('on');
+							$this.find('.dot' + index).addClass('on');
+						}
+					});
+				});
+
+				// 
+				$('#browDiv .list').hide();
+				$('#browDiv .list').first().show();
+				$('#browDiv').hide();
+				$('#browDiv').css('bottom', $('.nav').height());
+				$('#browDiv').css('opacity', 1);
+				$('#browArea').show();
+				$('#browDiv').fadeIn('fast');
+
+				// 
+				$('#browClose').bind('click', function() {
+					$('#browDiv').fadeOut('fast', function() {
+						$('#browDiv').remove();
+						$('#browArea').hide();
+					});
+				});
+
+				// 
+				$('#browDiv .data').bind('click', function() {
+					for (var i in textareaIds) {
+						$('#' + textareaIds[i]).val($('#' + textareaIds[i]).val() + $(this).attr('_name'));
+					}
+					return false;
+				});
+
+				// 
+				$('#browDelete').bind(globalTouchStart, function() {
+					$(this).addClass('g-link-on');
+					for (var i in textareaIds) {
+						var str = $('#' + textareaIds[i]).val();
+						$('#' + textareaIds[i]).val(str.substr(0, str.length - 1));
+					}
+					return false;
+				});
+			});
+		}
+		// 
+		$('#browArea').bind(globalTouchEnd, function() {
+			$('#browDiv').fadeOut('fast', function() {
+				$('#browDiv').remove();
+				$('#browArea').hide();
+			});
+		});
+	});
+</script>		<div class="hide_height"></div>
+		<div class="tj">
+			<script type="text/javascript">
+				var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F66299d8682992cb677d8c5d068c7da53' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+		</div>
+	</body>
+</html>
