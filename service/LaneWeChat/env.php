@@ -8,7 +8,7 @@ include 'lanewechat.php';
 //设置菜单
 
 $menuList = array(
-    array('id'=>'1', 'pid'=>'0',  'name'=>'神州产品', 'type'=>'click', 'code'=>'key_1'),
+    array('id'=>'1', 'pid'=>'0',  'name'=>'神州产品', 'type'=>'view', 'code'=>'http://www.weixinguanjia.cn/weiweb/6775540/index.html'),
     array('id'=>'2', 'pid'=>'0',  'name'=>'需求论坛', 'type'=>'', 'code'=>'key_2'),
     array('id'=>'3', 'pid'=>'2',  'name'=>'企业服务总线(ESB)', 'type'=>'view', 'code'=>'http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9'),
     array('id'=>'4', 'pid'=>'2',  'name'=>'互联网开放平台', 'type'=>'view', 'code'=>'http://shequ.yunzhijia.com/thirdapp/forum/network/56cd2400e4b07b5dd9eb1b56'),
