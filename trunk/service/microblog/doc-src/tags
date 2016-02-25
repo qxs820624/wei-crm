@@ -1,0 +1,25 @@
+<!-- Copyright 2008-2010 MicroService Inc. and contributors. -->
+<!-- Document licensed under Creative Commons Attribution 3.0 Unported. See -->
+<!-- http://creativecommons.org/licenses/by/3.0/ for details. -->
+
+%%site.name%%支持[标签](http://en.wikipedia.org/wiki/Tag_(metadata))。这个标签帮助你归类你的消息和朋友。
+
+给一个消息加标签
+----------------
+
+你可以给一个消息加标签，一个#字符后跟字母和数字以及'.'，'-'，和'_'。
+
+点击这个标签，将会看到所有带这个标签的消息。这个会很好的跟踪自己的交流信息。
+
+给自己加标签
+----------------
+
+你也可以在自己的[主页](%%action.profilesettings%%)给自己加标签.使用单个单词描述自己特长或者兴趣爱好。同时进入这个标签你就可以看到所有使用这个标签的用户。这是一个很好的方法去找到有共同兴趣爱好的朋友。
+
+给别人加标签
+--------------
+
+你也可以给其他人加标签。一旦你给这个人创建一个标签，你就可以在标签编辑中添加删除用户。这让你很容易归类你的朋友到各个组。
+
+你可以给所有的带有相同的tag的朋友同时发送消息。"@#family hello"将发送一条消息到所有的你使用'family'tag的朋友那里。
+
