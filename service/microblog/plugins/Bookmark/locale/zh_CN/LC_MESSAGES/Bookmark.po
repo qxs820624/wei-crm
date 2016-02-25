@@ -1,0 +1,205 @@
+# Translation of MicroService - Bookmark to Simplified Chinese (‪中文(简体)‬)
+# Exported from translatewiki.net
+#
+# Author: Hydra
+# --
+# This file is distributed under the same license as the MicroService package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MicroService - Bookmark\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-31 21:06+0000\n"
+"PO-Revision-Date: 2011-03-31 21:09:00+0000\n"
+"Language-Team: Simplified Chinese <http://translatewiki.net/wiki/Portal:zh-"
+"hans>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2011-03-24 15:23:19+0000\n"
+"X-Generator: MediaWiki 1.18alpha (r85082); Translate extension (2011-03-11)\n"
+"X-Translation-Project: translatewiki.net at http://translatewiki.net\n"
+"X-Language-Code: zh-hans\n"
+"X-Message-Group: #out-microservice-plugin-bookmark\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Bad import file."
+msgstr "错误导入文件"
+
+msgid "No <A> tag in a <DT>."
+msgstr "在<DT>中没有<A>标签"
+
+msgid "Skipping private bookmark."
+msgstr "忽略私有的书签"
+
+#. TRANS: Client exception thrown when referring to a non-existing bookmark.
+msgid "No such bookmark."
+msgstr "没有这样的书签"
+
+#. TRANS: Title for bookmark.
+#. TRANS: %1$s is a user nickname, %2$s is a bookmark title.
+#, php-format
+msgid "%1$s's bookmark for \"%2$s\""
+msgstr "%1$s的\"%2$s\"书签"
+
+msgid "Simple extension for supporting bookmarks."
+msgstr "支持书签的简单扩展。"
+
+msgid "Import del.icio.us bookmarks"
+msgstr "导入书签"
+
+msgid "Expected exactly 1 link rel=related in a Bookmark."
+msgstr ""
+
+msgid "Bookmark notice with the wrong number of attachments."
+msgstr "书签有错误的附件号码"
+
+msgid "Bookmark"
+msgstr "书签"
+
+#, php-format
+msgid "Bookmark on %s"
+msgstr "%s上的书签"
+
+msgid "Bookmark already exists."
+msgstr "书签已经存在"
+
+#. TRANS: %1$s is a title, %2$s is a short URL, %3$s is a description,
+#. TRANS: %4$s is space separated list of hash tags.
+#, php-format
+msgid "\"%1$s\" %2$s %3$s %4$s"
+msgstr "\"%1$s\" %2$s %3$s %4$s"
+
+#, php-format
+msgid ""
+"<span class=\"xfolkentry\"><a class=\"taggedlink\" href=\"%1$s\">%2$s</a> "
+"<span class=\"description\">%3$s</span> <span class=\"meta\">%4$s</span></"
+"span>"
+msgstr ""
+"<span class=\"xfolkentry\"><a class=\"taggedlink\" href=\"%1$s\">%2$s</a> "
+"<span class=\"description\">%3$s</span> <span class=\"meta\">%4$s</span></"
+"span>"
+
+msgid "Unknown URL"
+msgstr "未知的连接"
+
+#, php-format
+msgid "Notices linking to %s"
+msgstr "到%s的连接"
+
+msgid "Only logged-in users can import del.icio.us backups."
+msgstr "仅仅登入的用户才可以导入del.icio.us的备份"
+
+msgid "You may not restore your account."
+msgstr "你有可能没有恢复你的账号"
+
+msgid "No uploaded file."
+msgstr "没有上传的文件"
+
+#. TRANS: Client exception thrown when an uploaded file is too large.
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "上传的文件超出文件大小限制"
+
+#. TRANS: Client exception.
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"上传的文件超出文件大小限制"
+
+#. TRANS: Client exception.
+msgid "The uploaded file was only partially uploaded."
+msgstr "文件只上传了一部分"
+
+#. TRANS: Client exception thrown when a temporary folder is not present
+msgid "Missing a temporary folder."
+msgstr "临时文件夹丢失"
+
+#. TRANS: Client exception thrown when writing to disk is not possible
+msgid "Failed to write file to disk."
+msgstr "写文件到磁盘失败"
+
+#. TRANS: Client exception thrown when a file upload has been stopped
+msgid "File upload stopped by extension."
+msgstr "外部终止了文件上传"
+
+#. TRANS: Client exception thrown when a file upload operation has failed
+msgid "System error uploading file."
+msgstr "文件上传出现系统错误"
+
+#, php-format
+msgid "Getting backup from file '%s'."
+msgstr "从文件'%s'获取备份"
+
+msgid ""
+"Bookmarks have been imported. Your bookmarks should now appear in search and "
+"your profile page."
+msgstr "书签成功导入。你的书签现在出现在你的个人信息页中并且可以被搜索。"
+
+msgid "Bookmarks are being imported. Please wait a few minutes for results."
+msgstr "书签成功导入。请等待几分钟。"
+
+msgid "You can upload a backed-up delicious.com bookmarks file."
+msgstr "你可以上传一个备份的书签文件"
+
+msgctxt "BUTTON"
+msgid "Upload"
+msgstr "上传"
+
+msgid "Upload the file"
+msgstr "上传文件"
+
+msgctxt "LABEL"
+msgid "Title"
+msgstr "标题"
+
+msgid "Title of the bookmark"
+msgstr "书签的标题"
+
+msgctxt "LABEL"
+msgid "URL"
+msgstr "链接"
+
+msgid "URL to bookmark"
+msgstr ""
+
+msgctxt "LABEL"
+msgid "Tags"
+msgstr "标签"
+
+msgid "Comma- or space-separated list of tags"
+msgstr "用逗号或者空格分割多个标签"
+
+msgctxt "LABEL"
+msgid "Description"
+msgstr "描述"
+
+msgid "Description of the URL"
+msgstr "链接描述"
+
+msgctxt "BUTTON"
+msgid "Save"
+msgstr "保存"
+
+msgid "New bookmark"
+msgstr "新的书签"
+
+msgid "Must be logged in to post a bookmark."
+msgstr "必须登入才能发布一个书签"
+
+msgid "Bookmark must have a title."
+msgstr "书签必须有一个标题"
+
+msgid "Bookmark must have an URL."
+msgstr "书签必须有一个链接"
+
+#. TRANS: Page title after sending a notice.
+msgid "Notice posted"
+msgstr "通知已经发布"
+
+#. TRANS: %s is the filename that contains a backup for a user.
+#, php-format
+msgid "Getting backup from file \"%s\"."
+msgstr "从文件\"%s\"获取备份。"
+
+msgid "BOOKMARKS"
+msgstr "书签"
