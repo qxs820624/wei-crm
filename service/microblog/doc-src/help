@@ -1,0 +1,14 @@
+<!-- Copyright 2008-2010 MicroService Inc. and contributors. -->
+<!-- Document licensed under Creative Commons Attribution 3.0 Unported. See -->
+<!-- http://creativecommons.org/licenses/by/3.0/ for details. -->
+
+%%site.name%%是一个**社交服务**。用户可以发布短消息，这些短消息会被共享到他们的也在这个平台上的朋友，同事那里。
+
+
+你也可以发布其他类型的消息，如书签，新闻，投票或者提问。
+
+
+如果你想尝试，首先[注册](%%action.register%%)一个账户。之后在[主页](%%action.top%%)输入你的消息，之后点击发布。这则消息会发布到你的主页上并且共享给你的关注者。
+
+
+想要关注他人，就到他们的个人主页点击“关注”.他们将会收到一条消息，你开始关注他们了。

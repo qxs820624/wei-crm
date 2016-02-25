@@ -1,0 +1,9 @@
+<!-- Copyright 2008-2010 MicroService Inc. and contributors. -->
+<!-- Document licensed under Creative Commons Attribution 3.0 Unported. See -->
+<!-- http://creativecommons.org/licenses/by/3.0/ for details. -->
+
+%%site.name%%是一个社交网络服务平台。
+
+如果你[注册](%%action.register%%)一个账户，你就可以发布一些个人的短消息，例如你在哪儿，你正在做什么，你的工作，或者你的想法。你也关注你朋友或者你感兴趣的人的消息，并且你可以私信给他们。
+
+你也可以发布新闻，书签，投票，或者提问。
