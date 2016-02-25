@@ -1,0 +1,1484 @@
+2016-02-25 00:09:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330166</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[key_9]]></EventKey>
+</xml>
+
+2016-02-25 00:09:24 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-25 00:09:24 response :
+------------
+
+2016-02-25 00:10:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330232</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-25 00:10:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330261</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-25 00:10:59 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:10:59 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+
+sz10:关于我们 ;
+
+2016-02-25 00:11:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330270</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[hd]]></EventKey>
+</xml>
+
+2016-02-25 00:11:08 params :
+------------
+Array:
+message : Array ;
+module : ewei_scratch ;
+rule : 21 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:11:08 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:14:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330483</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 00:14:41 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-25 00:14:41 response :
+------------
+
+2016-02-25 00:17:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330637</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 00:17:14 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-25 00:17:14 response :
+------------
+
+2016-02-25 00:18:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330718</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 00:18:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-25 00:18:36 response :
+------------
+
+2016-02-25 00:19:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330749</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 00:19:07 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-25 00:19:07 response :
+------------
+
+2016-02-25 00:22:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330932</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 00:22:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-25 00:22:10 response :
+------------
+
+2016-02-25 00:22:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330949</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[hd]]></EventKey>
+</xml>
+
+2016-02-25 00:22:27 params :
+------------
+Array:
+message : Array ;
+module : ewei_scratch ;
+rule : 21 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:22:27 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:22:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456330954</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[sz20]]></EventKey>
+</xml>
+
+2016-02-25 00:22:32 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 22 ;
+priority : 1 ;
+keyword : Array ;
+
+2016-02-25 00:22:32 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:23:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456331019</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[dd]]></Content>
+<MsgId>6254894099162124813</MsgId>
+</xml>
+
+2016-02-25 00:23:37 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-25 00:23:37 response :
+------------
+
+2016-02-25 00:27:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456331246</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hh]]></Content>
+<MsgId>6254895074119701045</MsgId>
+</xml>
+
+2016-02-25 00:27:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:27:24 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 00:27:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456331251</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hd]]></Content>
+<MsgId>6254895095594537527</MsgId>
+</xml>
+
+2016-02-25 00:27:28 params :
+------------
+Array:
+message : Array ;
+module : ewei_scratch ;
+rule : 21 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:27:28 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:28:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456331328</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 00:28:49 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:28:49 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 00:29:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456331354</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[hd]]></EventKey>
+</xml>
+
+2016-02-25 00:29:11 params :
+------------
+Array:
+message : Array ;
+module : ewei_scratch ;
+rule : 21 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:29:11 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:29:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456331357</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[sz20]]></EventKey>
+</xml>
+
+2016-02-25 00:29:14 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 22 ;
+priority : 1 ;
+keyword : Array ;
+
+2016-02-25 00:29:14 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:29:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456331383</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=entry&do=list&m=ewei_shopping]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 00:29:41 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:29:41 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 00:37:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456331822</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[gg]]></Content>
+<MsgId>6254897548020863672</MsgId>
+</xml>
+
+2016-02-25 00:37:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:37:00 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 00:37:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456331830</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[sz20]]></Content>
+<MsgId>6254897582380602042</MsgId>
+</xml>
+
+2016-02-25 00:37:08 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 22 ;
+priority : 1 ;
+keyword : Array ;
+
+2016-02-25 00:37:08 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:37:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456331841</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[sz10]]></Content>
+<MsgId>6254897629625242299</MsgId>
+</xml>
+
+2016-02-25 00:37:19 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 1 ;
+keyword : Array ;
+
+2016-02-25 00:37:19 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:38:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456331884</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[sz2]]></Content>
+<MsgId>6254897814308836036</MsgId>
+</xml>
+
+2016-02-25 00:38:01 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 1 ;
+keyword : Array ;
+
+2016-02-25 00:38:01 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:39:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456331951</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[gf]]></Content>
+<MsgId>6254898102071644883</MsgId>
+</xml>
+
+2016-02-25 00:39:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:39:09 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 00:39:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456331972</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[sz0]]></Content>
+<MsgId>6254898192265958103</MsgId>
+</xml>
+
+2016-02-25 00:39:30 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 14 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:39:30 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:53:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456332830</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[hd]]></EventKey>
+</xml>
+
+2016-02-25 00:53:47 params :
+------------
+Array:
+message : Array ;
+module : ewei_scratch ;
+rule : 21 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:53:47 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 00:59:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456333183</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hd]]></Content>
+<MsgId>6254903393471353765</MsgId>
+</xml>
+
+2016-02-25 00:59:40 params :
+------------
+Array:
+message : Array ;
+module : ewei_scratch ;
+rule : 21 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 00:59:40 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 01:01:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456333289</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 01:01:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 01:01:27 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 01:18:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456334336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=entry&do=list&m=ewei_shopping]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 01:18:53 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 01:18:53 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 01:19:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456334372</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 01:19:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 01:19:30 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 01:19:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456334387</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 01:19:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 01:19:45 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 01:43:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456335785</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cd2570e4b01e957cb41cc5]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 01:43:02 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 01:43:02 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:08:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456358899</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[hd]]></EventKey>
+</xml>
+
+2016-02-25 08:08:16 params :
+------------
+Array:
+message : Array ;
+module : ewei_scratch ;
+rule : 21 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:08:16 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-25 08:19:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456359577</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:19:34 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:19:34 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:20:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456359615</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:20:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:20:12 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:20:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456359643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:20:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:20:40 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:21:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456359690</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:21:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:21:27 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:22:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456359747</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:22:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:22:24 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:23:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456359783</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=entry&do=list&m=ewei_shopping]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:23:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:23:00 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:31:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwLqUiyaiwiR18JP5G6SpIfA]]></FromUserName>
+<CreateTime>1456360291</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-25 08:31:31 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:31:31 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwLqUiyaiwiR18JP5G6SpIfA ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:31:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwLqUiyaiwiR18JP5G6SpIfA]]></FromUserName>
+<CreateTime>1456360309</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:31:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:31:47 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwLqUiyaiwiR18JP5G6SpIfA ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:32:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456360355</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:32:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:32:32 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:33:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwLqUiyaiwiR18JP5G6SpIfA]]></FromUserName>
+<CreateTime>1456360388</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:33:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:33:05 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwLqUiyaiwiR18JP5G6SpIfA ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:35:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwLqUiyaiwiR18JP5G6SpIfA]]></FromUserName>
+<CreateTime>1456360546</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:35:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:35:43 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwLqUiyaiwiR18JP5G6SpIfA ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:38:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456360726</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=entry&do=list&m=ewei_shopping]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:38:43 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:38:43 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:41:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwLqUiyaiwiR18JP5G6SpIfA]]></FromUserName>
+<CreateTime>1456360893</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:41:31 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:41:31 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwLqUiyaiwiR18JP5G6SpIfA ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+
+2016-02-25 08:41:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwLqUiyaiwiR18JP5G6SpIfA]]></FromUserName>
+<CreateTime>1456360902</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=entry&do=list&m=ewei_shopping]]></EventKey>
+<MenuId>406770023</MenuId>
+</xml>
+
+2016-02-25 08:41:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-25 08:41:39 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwLqUiyaiwiR18JP5G6SpIfA ;
+MsgType : text ;
+Content : 欢迎关注神州数码产品论坛公共号，要了解更多内容请回复如下内容：
+sz0: 神州数码金融华东事业部主页
+sz1: 企业服务总线(ESB)
+sz2:互联网开放平台
+sz3:PaaS私有云平台
+sz4:外联平台
+sz5:SOP平台
+sz10:关于我们
+sz20:最新动态
+hd:最新的活动 ;
+

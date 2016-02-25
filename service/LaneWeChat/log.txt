@@ -1,0 +1,16 @@
+
+44444
+11111
+{"button":[{"name":"神州产品","sub_button":[{"name":"神州数码ESB","type":"view","url":"http://www.lanecn.com"},{"name":"神州数码MAIL","type":"view","url":"http://www.lanecn.com"},{"name":"其他产品","type":"view","url":"http://www.lanecn.com"},{"name":"我的帖子","type":"view","url":"http://www.lanecn.com"},{"name":"我的关注","type":"view","url":"http://www.lanecn.com"}],"key":"key_1"},{"name":"需求论坛","type":""},{"name":"我的","type":""}]}55555
+22222
+33333
+44444
+11111
+{"button":[{"name":"神州产品","type":"click","key":"key_1"},{"name":"需求论坛","sub_button":[{"name":"神州数码ESB","type":"view","url":"http://www.lanecn.com"},{"name":"神州数码MAIL","type":"view","url":"http://www.lanecn.com"},{"name":"其他产品","type":"view","url":"http://www.lanecn.com"}]},{"name":"我的","sub_button":[{"name":"我的帖子","type":"view","url":"http://www.lanecn.com"},{"name":"我的关注","type":"view","url":"http://www.lanecn.com"}]}]}55555
+22222
+33333
+44444
+11111
+{"button":[{"name":"神州产品","type":"click","key":"key_1"},{"name":"需求论坛","sub_button":[{"name":"神州数码ESB","type":"view","url":"http://www.lanecn.com"},{"name":"神州数码MAIL","type":"view","url":"http://www.lanecn.com"},{"name":"其他产品","type":"view","url":"http://www.lanecn.com"}]},{"name":"我的","sub_button":[{"name":"我的帖子","type":"view","url":"http://www.lanecn.com"},{"name":"我的关注","type":"view","url":"http://www.lanecn.com"}]}]}55555
+22222
+33333
