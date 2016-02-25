@@ -1,0 +1,624 @@
+2016-02-24 17:01:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d477bacee1ab]]></ToUserName>
+<FromUserName><![CDATA[oMp5Xt51Zy30E1zRhAZjDQUFkqT0]]></FromUserName>
+<CreateTime>1456304511</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我们 关于我们]]></Content>
+<MsgId>6254780248163780262</MsgId>
+</xml>
+
+2016-02-24 17:01:50 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 17:01:50 response :
+------------
+
+2016-02-24 17:07:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_d477bacee1ab]]></ToUserName>
+<FromUserName><![CDATA[oMp5Xt51Zy30E1zRhAZjDQUFkqT0]]></FromUserName>
+<CreateTime>1456304871</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[AA]]></Content>
+<MsgId>6254781794352006912</MsgId>
+</xml>
+
+2016-02-24 17:07:53 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-24 17:07:53 response :
+------------
+Array:
+FromUserName : gh_d477bacee1ab ;
+ToUserName : oMp5Xt51Zy30E1zRhAZjDQUFkqT0 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-24 20:31:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456317063</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 20:31:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456317071</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 20:31:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 20:31:09 response :
+------------
+
+2016-02-24 21:05:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456319138</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:05:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:05:36 response :
+------------
+
+2016-02-24 21:06:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456319211</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:06:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:06:49 response :
+------------
+
+2016-02-24 21:29:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456320570</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:29:28 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:29:28 response :
+------------
+
+2016-02-24 21:31:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456320673</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:31:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:31:11 response :
+------------
+
+2016-02-24 21:44:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456321472</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:44:30 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:44:30 response :
+------------
+
+2016-02-24 21:50:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456321803</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:50:01 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:50:01 response :
+------------
+
+2016-02-24 21:54:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456322080</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:54:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:54:38 response :
+------------
+
+2016-02-24 21:56:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456322195</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[key_9]]></EventKey>
+</xml>
+
+2016-02-24 21:56:33 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:56:33 response :
+------------
+
+2016-02-24 21:56:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456322204</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[key_10]]></EventKey>
+</xml>
+
+2016-02-24 21:56:42 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:56:42 response :
+------------
+
+2016-02-24 21:57:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322239</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 21:57:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322260</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 21:57:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:57:38 response :
+------------
+
+2016-02-24 21:58:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322284</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:58:02 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:58:02 response :
+------------
+
+2016-02-24 21:59:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322350</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 21:59:08 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 21:59:08 response :
+------------
+
+2016-02-24 22:00:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322411</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[key_9]]></EventKey>
+</xml>
+
+2016-02-24 22:00:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 22:00:09 response :
+------------
+
+2016-02-24 22:00:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322418</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=home&t=3]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 22:00:16 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 22:00:16 response :
+------------
+
+2016-02-24 22:01:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456322481</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[sz0]]></Content>
+<MsgId>6254857428731348531</MsgId>
+</xml>
+
+2016-02-24 22:01:19 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 14 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-24 22:01:19 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwDTaZA7--PVbTAPhRTPDcJ8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-24 22:01:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322505</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[sz0]]></Content>
+<MsgId>6254857531810563655</MsgId>
+</xml>
+
+2016-02-24 22:01:44 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 14 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-02-24 22:01:44 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-24 22:02:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322533</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[sz1]]></Content>
+<MsgId>6254857652069647963</MsgId>
+</xml>
+
+2016-02-24 22:02:11 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 12 ;
+priority : 1 ;
+keyword : Array ;
+
+2016-02-24 22:02:11 response :
+------------
+Array:
+FromUserName : gh_9c1cd2b20ac4 ;
+ToUserName : o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-02-24 22:04:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwGtQT8cu0Cy2DcOOPcNqU1Y]]></FromUserName>
+<CreateTime>1456322660</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://shequ.yunzhijia.com/thirdapp/forum/network/56cc0ab5e4b0af7bdbcd95d9]]></EventKey>
+<MenuId>406765217</MenuId>
+</xml>
+
+2016-02-24 22:04:18 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 22:04:18 response :
+------------
+
+2016-02-24 22:32:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456324336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 22:32:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456324362</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 22:32:40 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 22:32:40 response :
+------------
+
+2016-02-24 22:34:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456324500</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 22:35:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456324511</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 22:35:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 22:35:09 response :
+------------
+
+2016-02-24 22:36:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456324621</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 22:37:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456324631</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-02-24 22:37:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 22:37:09 response :
+------------
+
+2016-02-24 22:37:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9c1cd2b20ac4]]></ToUserName>
+<FromUserName><![CDATA[o5GbkwDTaZA7--PVbTAPhRTPDcJ8]]></FromUserName>
+<CreateTime>1456324635</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://115.173.207.75/microsite/app/index.php?i=3&c=entry&do=list&m=ewei_shopping]]></EventKey>
+<MenuId>406768188</MenuId>
+</xml>
+
+2016-02-24 22:37:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-02-24 22:37:13 response :
+------------
+
