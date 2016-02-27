@@ -14,7 +14,7 @@ $menuList = array(
     array('id'=>'4', 'pid'=>'2',  'name'=>'互联网开放平台', 'type'=>'view', 'code'=>'http://shequ.yunzhijia.com/thirdapp/forum/network/56cd2400e4b07b5dd9eb1b56'),
     array('id'=>'5', 'pid'=>'2',  'name'=>'PaaS私有云平台', 'type'=>'view', 'code'=>'http://shequ.yunzhijia.com/thirdapp/forum/network/56cd2493e4b081c602b4abc9'),
     array('id'=>'6', 'pid'=>'2',  'name'=>'外联平台', 'type'=>'view', 'code'=>'http://shequ.yunzhijia.com/thirdapp/forum/network/56cd251ce4b01e957cb4146f'),
-    array('id'=>'7', 'pid'=>'2',  'name'=>'SOP平台', 'type'=>'view', 'code'=>'http://shequ.yunzhijia.com/thirdapp/forum/network/56cd2570e4b01e957cb41cc5'),
+    array('id'=>'7', 'pid'=>'2',  'name'=>'SOP平台', 'type'=>'view', 'code'=>'http://115.173.207.75/www/plugin.php?id=wechat:access'),
     array('id'=>'8', 'pid'=>'0',  'name'=>'神州之星', 'type'=>'', 'code'=>'key_8'),
     array('id'=>'9', 'pid'=>'8',  'name'=>'最新活动', 'type'=>'click', 'code'=>'key_9'),
     array('id'=>'10', 'pid'=>'8', 'name'=>'最新新闻', 'type'=>'click', 'code'=>'key_10'),
