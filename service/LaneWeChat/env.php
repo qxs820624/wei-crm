@@ -19,6 +19,7 @@ $menuList = array(
     array('id'=>'9', 'pid'=>'8',  'name'=>'最新活动', 'type'=>'click', 'code'=>'key_9'),
     array('id'=>'10', 'pid'=>'8', 'name'=>'最新新闻', 'type'=>'click', 'code'=>'key_10'),
     array('id'=>'11', 'pid'=>'8', 'name'=>'神州商城', 'type'=>'view', 'code'=>'http://115.173.207.75/microsite/app/index.php?i=3&c=entry&do=list&m=ewei_shopping'),
+    array('id'=>'11', 'pid'=>'8', 'name'=>'微商城', 'type'=>'view', 'code'=>'http://115.173.207.75/mall/api.php?platform=wechat'),
 );
 \LaneWeChat\Core\Menu::setMenu($menuList);
 
