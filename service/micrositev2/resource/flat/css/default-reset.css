@@ -1,0 +1,33 @@
+/* CSS Document */
+
+
+.nav-tabs {
+	background:#EEE;
+	margin:15px 15px 0 15px;
+	width:auto;
+	padding:5px 0 0 5px;
+}
+.nav-tabs > li > a {
+	padding:0;
+	margin:0;
+	height:30px;
+	line-height:30px;
+	*height:36px;
+	*line-height:28px;
+	padding:0 10px;
+	font-size:14px;
+	color:#666;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	border:1px solid transparent;
+	color:#333;
+	
+}
+.nav-tabs .pull-right{margin-right:15px;}
+.nav-tabs .pull-right li{float:right; margin-top:10px;}
+.nav-tabs .pull-right a{text-decoration:none;display:block;height:30px;line-height:30px;background:#006dcc;color:#FFF;padding:0 10px;font-size:16px;margin-left:1px;}
+.nav-tabs .pull-right a:hover{background:#0044cc;}
+.main{ border:solid 1px #ddd; border-top:0px; margin:0 15px 15px 15px; width:auto}
