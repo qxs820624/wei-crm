@@ -13,6 +13,12 @@ if (empty($_W['isfounder']) && !empty($_W['user']) && $_W['user']['status'] == 1
 	message('您的账号正在审核或是已经被系统禁止，请联系网站管理员解决！');
 }
 
+        $log_file = fopen("log.txt", "a+");
+
+        fwrite($log_file, "11111111\n");
+        
+        fclose($log_file);
+        
 $acl = array(
 	'account' => array(
 		'default' => 'welcome',
@@ -116,6 +122,12 @@ if (($settings['copyright']['status'] == 1) && empty($_W['isfounder'])) {
 	message('站点已关闭，关闭原因：' . $settings['copyright']['reason'], url('account/welcome'), 'info');
 }
 
+        $log_file = fopen("log.txt", "a+");
+
+        fwrite($log_file, "22222222\n");
+        
+        fclose($log_file);
+        
 $controllers = array();
 $handle = opendir(IA_ROOT . '/web/source/');
 if(!empty($handle)) {
@@ -193,6 +205,13 @@ if ((ENDTIME - STARTTIME) > $_W['config']['setting']['maxtimeurl']) {
 	);
 	pdo_insert('core_performance', $data);
 }
+
+
+        $log_file = fopen("log.txt", "a+");
+
+        fwrite($log_file, "33333333\n");
+        
+        fclose($log_file);
 
 
 function _forward($c, $a) {
