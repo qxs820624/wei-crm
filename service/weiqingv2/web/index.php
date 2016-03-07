@@ -4,6 +4,12 @@
  * WeEngine is NOT a free software, it under the license terms, visited http://www.we7.cc/ for more details.
  */
 define('IN_SYS', true);
+        $log_file = fopen("log.txt", "a+");
+
+        fwrite($log_file, "11111111\n");
+        
+        fclose($log_file);
+
 require '../framework/bootstrap.inc.php';
 require IA_ROOT . '/web/common/bootstrap.sys.inc.php';
 load()->web('common');
