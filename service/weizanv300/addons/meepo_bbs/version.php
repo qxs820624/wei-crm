@@ -1,0 +1,1 @@
+<?php /*站长吧源码论坛 www.admin8.co*/ if(!defined('VERSION')) {define('VERSION','4.3.5');}
