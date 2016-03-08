@@ -1,0 +1,199 @@
+<include file="Public:head"/>
+
+    <script>
+        $(function(){
+            $('.ckit > li').first().removeClass();
+        });
+    </script>
+
+<div class="content">
+    <ul>
+        <li class="guanzhu">
+            <a title="公众号">
+                {pigcms:$data.mp}
+                <p>公众号</p>
+            </a>
+        </li>
+        <li class="huiyuanka">
+            <a title="会员卡">
+                {pigcms:$data.card}
+                <p>会员卡</p>
+            </a>
+        </li>
+        <li class="liulan">
+            <a title="图文消息">
+                {pigcms:$data.img}
+                <p>图文消息</p>
+            </a>
+        </li>
+        <li class="fangke">
+            <a title="微活动">
+                {pigcms:$data.active}
+                <p>微活动</p>
+            </a>
+        </li>
+        <div class="clr"></div>
+    </ul>
+    <div class="clr" style="height:30px;"></div>
+
+
+	<div class="welcome1" style="display: block;">
+	<div class="tab_menu">
+        <ul>
+          <li class="tab-current " style="border-left:none;<if condition="$usertplid eq 2">width:14.28%;<else />width: 14.13%</if>"><a href="javascript:" class="icon icon-gift" style="<if condition="$usertplid eq 2">line-height:53px;</if>"><span>宣传展示类</span></a></li>
+          <li class="" style="<if condition="$usertplid eq 2">width:14.28%;<else />width: 14.13%</if>"><a href="javascript:" class="icon icon icon-tools" style="<if condition="$usertplid eq 2">line-height:53px;</if>"><span>推广吸粉类</span></a></li>  
+          <li class="" style="<if condition="$usertplid eq 2">width:14.28%;<else />width: 14.13%</if>"><a href="javascript:" class="icon icon-date" style="<if condition="$usertplid eq 2">line-height:53px;</if>"><span>营销活动类</span></a></li>
+          <!--<li class=""><a href="javascript:" class="icon icon icon-display"> <span>节日营销类</span></a></li>-->
+          <li class="" style="<if condition="$usertplid eq 2">width:14.28%;<else />width: 14.13%</if>"><a href="javascript:" class="icon icon-upload" style="<if condition="$usertplid eq 2">line-height:53px;</if>"><span>电商交易类</span></a></li>
+          <li class="" style="<if condition="$usertplid eq 2">width:14.28%;<else />width: 14.13%</if>"><a href="javascript:" class="icon icon icon-box" style="<if condition="$usertplid eq 2">line-height:53px;</if>"><span>行业功能类</span></a></li>
+          <li class="" style="<if condition="$usertplid eq 2">width:14.28%;<else />width: 14.13%</if>"><a href="javascript:" class="icon icon-config" style="<if condition="$usertplid eq 2">line-height:53px;</if>"><span>会员管理类</span></a></li>    
+          <li class="<if condition="$usertplid eq 2">func</if>" style="border-right:none;<if condition="$usertplid eq 2">width:14.28%;<else />width: 138.35px;</if>"><a href="javascript:" class="icon icon-config" style="<if condition="$usertplid eq 2">line-height:53px;</if>"><span>其他功能类</span></a></li>    
+        </ul>
+	</div>
+
+<script type="text/javascript" >
+<if condition="$usertplid eq 2">
+$(function(){
+	var width = $('.func').width();
+	$('.func').css('width',(width-11)+"px");
+	var fwidth = $('.welcome1').width();
+	var a =	fwidth%120;
+	var b =	parseInt(fwidth/120);
+	var c = a + 360;
+	var d = b - 3;
+	var e = parseInt(c/d);
+	$('.img1').css('margin-left',(e/2)+'px');
+	$('.img1').css('margin-right',(e/2)+'px');
+});
+</if>
+    $(function(){
+        var $div_li =$(".tab_menu ul li");
+        $div_li.click(function(){
+            $(this).addClass("tab-current")            //当前<li>元素特效
+                   .siblings().removeClass("tab-current");  //去掉其它同辈<li>元素的特效
+            var index =  $div_li.index(this);  // 获取当前点击的<li>元素 在全部li元素中的索引。
+            //alert(index);return;
+            $(".content1").hide();
+            $(".content1").eq(index).show();
+        })
+    })
+//]]>
+</script>
+
+		<div class="content1">
+			<volist name="wel_content" id="vo" offset="0" length="">
+				<div class="img1">
+					<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+				</div>
+			</volist>
+			<div style="clear:both"></div>
+		</div>		
+
+		
+<!--以下是隐藏部分-->
+		<div class="content1" style="display: none;">
+				<volist name="spr_content" id="vo" offset="0" length="">
+					<div class="img1">
+						<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+					</div>
+				</volist>
+				<div style="clear:both"></div>
+		</div>	
+
+
+		<div class="content1" style="display: none;">
+				<volist name="mar_content" id="vo" offset="0" length="">
+					<div class="img1">
+						<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+					</div>
+				</volist>
+				<div style="clear:both"></div>
+		</div>			
+		
+		
+		<!--<div class="content1" style="display: none;">
+				<volist name="holi_content_yincang" id="vo" offset="0" length="">
+					<div class="img1">
+						<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+					</div>
+				</volist>
+				<div style="clear:both"></div>
+		</div>-->
+		
+		
+		<div class="content1" style="display: none;">
+				<volist name="busi_content" id="vo" offset="0" length="">
+					<div class="img1">
+						<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+					</div>
+				</volist>
+				<div style="clear:both"></div>
+		</div>	
+		
+		
+		<div class="content1" style="display: none;">
+				<volist name="ind_content" id="vo" offset="0" length="">
+					<div class="img1">
+						<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+					</div>
+				</volist>
+				<div style="clear:both"></div>
+		</div>
+		
+
+		<div class="content1" style="display: none;">
+				<volist name="mem_content" id="vo" offset="0" length="">
+					<div class="img1">
+						<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+					</div>
+				</volist>
+				<div style="clear:both"></div>
+		</div>	
+		
+		<div class="content1" style="display: none;">
+				<volist name="oth_content" id="vo" offset="0" length="">
+					<div class="img1">
+						<a href="{pigcms:$vo.url}"><img src="{pigcms:$staticPath}{pigcms:$vo.pic}"/>{pigcms:$vo.title}</a>
+					</div>
+				</volist>
+				<div style="clear:both"></div>
+		</div>	
+		<div style="clear:both"></div>																
+	</div>
+
+
+
+
+
+
+    
+    <div class="clr" style="height:30px;"></div>
+
+        <div class="shuju"><center>	<div>
+
+        <h2 style="font-size:20px;margin-bottom:10px;">数据统计</h2>
+
+
+
+ <div class="clr"></div>
+
+<div id="main" style="height:400px;width:960px;"></div>
+
+<div class="clr" style="height:100px"></div>
+<center>	
+<div style="width:960px;">
+<div id="pieMain" style="height:400px;width:480px;float:left;"></div> 
+<div id="pieMain2" style="height:400px;width:470px;float:left;"></div>
+</div>
+</center>
+
+</div></center>
+    </div>
+</div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+  <!--底部-->
+    </div>
+<include file="Public:footer"/> 
