@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.012wz.com" versionCode="0.52,0.6,0.7">
+	<application setting="true">
+		<name><![CDATA[人人商城伴侣]]></name>
+		<identifie><![CDATA[wechat_renren]]></identifie>
+		<version><![CDATA[1.0]]></version>
+		<type><![CDATA[other]]></type>
+		<ability><![CDATA[人人商城伴侣]]></ability>
+		<description><![CDATA[人人商城伴侣，PC页面辅助店]]></description>
+		<author><![CDATA[起点源码论坛]]></author>
+		<url><![CDATA[www.qdyma.com]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="封面设置" do="fm" state="" direct="false" />
+		</cover>
+		<menu>
+			<entry title="商品管理" do="renrenshop" state="" direct="false" />
+			<entry title="特价推荐" do="renrentop" state="" direct="false" />
+			<entry title="模版更换" do="renrenmob" state="" direct="false" />
+		</menu>
+		<home>
+			<entry title="导航设置" do="dh" state="" direct="false" />
+		</home>
+	</bindings>
+	<install><![CDATA[CREATE TABLE IF NOT EXISTS `ims_wechat_attachment` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `uniacid` int(10) unsigned NOT NULL,
+  `acid` int(10) unsigned NOT NULL,
+  `uid` int(10) unsigned NOT NULL,
+  `filename` varchar(255) NOT NULL,
+  `attachment` varchar(255) NOT NULL,
+  `media_id` varchar(255) NOT NULL,
+  `width` int(10) unsigned NOT NULL,
+  `height` int(10) unsigned NOT NULL,
+  `type` varchar(15) NOT NULL,
+  `model` varchar(25) NOT NULL,
+  `tag` varchar(5000) NOT NULL,
+  `createtime` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`),
+  KEY `media_id` (`media_id`),
+  KEY `acid` (`acid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_ceshigames` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_daili` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `money` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_dailicoop` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `money` varchar(30) DEFAULT NULL,
+  `sale` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_dailitop` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `money` varchar(30) DEFAULT NULL,
+  `sale` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_games` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_news` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `uniacid` int(10) unsigned DEFAULT NULL,
+  `attach_id` int(10) unsigned NOT NULL,
+  `thumb_media_id` varchar(60) NOT NULL,
+  `title` varchar(50) NOT NULL,
+  `author` varchar(30) NOT NULL,
+  `digest` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  `content_source_url` varchar(200) NOT NULL,
+  `show_cover_pic` tinyint(3) unsigned NOT NULL,
+  `url` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`),
+  KEY `attach_id` (`attach_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_renren` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `money` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_rentop` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `money` varchar(30) DEFAULT NULL,
+  `sale` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_zxjisuanqi` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+CREATE TABLE IF NOT EXISTS `ims_wechat_zxtop` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `weid` int(10) DEFAULT NULL,
+  `title` varchar(30) DEFAULT NULL,
+  `money` varchar(30) DEFAULT NULL,
+  `sale` varchar(30) DEFAULT NULL,
+  `url` varchar(100) DEFAULT NULL,
+  `jianjie` varchar(300) DEFAULT NULL,
+  `logo` varchar(100) DEFAULT NULL,
+  `isok` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
