@@ -1,11 +1,11 @@
 <?php
 return array(
 	'DB_TYPE'=>'mysql',
-	'DB_HOST'=>'localhost',
+	'DB_HOST'=>'127.0.0.1',
 	'DB_PORT'=>'3306',
-	'DB_NAME'=>'goodziyuan',
-	'DB_USER'=>'pigcms',
-	'DB_PWD'=>'pigcms',
+	'DB_NAME'=>'pigcmsv3',
+	'DB_USER'=>'root',
+	'DB_PWD'=>'root',
 	'DB_PREFIX'=>'pigcms_',
 	/****/
 );
