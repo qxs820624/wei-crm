@@ -14,12 +14,6 @@ if (!empty($host)) {
 }
 
 
-        $log_file = fopen("log.txt", "a+");
-
-        fwrite($log_file, "11111111\n");
-        
-        fclose($log_file);
-
 if($_W['os'] == 'mobile' && (!empty($_GPC['i']) || !empty($_SERVER['QUERY_STRING']))) {
 	header('Location: ./app/index.php?' . $_SERVER['QUERY_STRING']);
 } else {
