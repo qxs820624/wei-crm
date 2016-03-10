@@ -28,13 +28,13 @@ $menuList = array(
 
 $menuList = array(
     array('id'=>'1', 'pid'=>'0',  'name'=>'神州商城', 'type'=>'', 'code'=>'key_1'),
-    array('id'=>'2', 'pid'=>'1',  'name'=>'商城入口', 'type'=>'view', 'code'=>'http://115.173.207.75/renren/app/index.php?i=8&c=entry&do=shop&m=ewei_shop'),
-    array('id'=>'3', 'pid'=>'1',  'name'=>'订单入口', 'type'=>'view', 'code'=>'http://115.173.207.75/renren/app/index.php?i=8&c=entry&do=order&m=ewei_shop'),
-    array('id'=>'4', 'pid'=>'1',  'name'=>'购物车入口', 'type'=>'view', 'code'=>'http://115.173.207.75/renren/app/index.php?i=8&c=entry&do=cart&m=ewei_shop'),
-    array('id'=>'5', 'pid'=>'1',  'name'=>'我的收藏', 'type'=>'view', 'code'=>'http://115.173.207.75/renren/app/index.php?i=8&c=entry&do=favorite&m=ewei_shop'),
-    array('id'=>'6', 'pid'=>'1',  'name'=>'会员中心', 'type'=>'view', 'code'=>'http://115.173.207.75/renren/app/index.php?i=8&c=entry&do=member&m=ewei_shop'),
+    array('id'=>'2', 'pid'=>'1',  'name'=>'商城入口', 'type'=>'view', 'code'=>'http://115.173.207.75/weizanv300/app/index.php?i=12&c=entry&do=shop&m=ewei_shop'),
+    array('id'=>'3', 'pid'=>'1',  'name'=>'订单入口', 'type'=>'view', 'code'=>'http://115.173.207.75/weizanv300/app/index.php?i=12&c=entry&do=order&m=ewei_shop'),
+    array('id'=>'4', 'pid'=>'1',  'name'=>'购物车入口', 'type'=>'view', 'code'=>'http://115.173.207.75/weizanv300/app/index.php?i=12&c=entry&do=cart&m=ewei_shop'),
+    array('id'=>'5', 'pid'=>'1',  'name'=>'我的收藏', 'type'=>'view', 'code'=>'http://115.173.207.75/weizanv300/app/index.php?i=12&c=entry&do=favorite&m=ewei_shop'),
+    array('id'=>'6', 'pid'=>'1',  'name'=>'会员中心', 'type'=>'view', 'code'=>'http://115.173.207.75/weizanv300/app/index.php?i=12&c=entry&do=member&m=ewei_shop'),
     array('id'=>'7', 'pid'=>'0',  'name'=>'好中医', 'type'=>'', 'code'=>'key_7'),
-    array('id'=>'8', 'pid'=>'7',  'name'=>'中医入口', 'type'=>'view', 'code'=>'http://115.173.207.75/weiqingv2/app/index.php?i=1&c=entry&do=index&m=weisrc_businesscenter'),
+    array('id'=>'8', 'pid'=>'7',  'name'=>'中医入口', 'type'=>'view', 'code'=>'http://115.173.207.75/weizanv300/app/index.php?i=12&c=entry&do=index&m=weisrc_businesscenter'),
 );
 \LaneWeChat\Core\Menu::setMenu($menuList);
 
