@@ -16,9 +16,9 @@ define('LANEWECHAT_VERSION_DATE', '2014-11-05');
 /*
  * 服务器配置，详情请参考@link http://mp.weixin.qq.com/wiki/index.php?title=接入指南
  */
-define("WECHAT_URL", 'http://www.lanecn.com');
-define('WECHAT_TOKEN', 'yN4nn616n6x6W6Kun7kNY3DLXl3NiN7n');
-define('ENCODING_AES_KEY', "BZgL88ZlfzBMLJGz5TBcfjTRro18rg6UJzrlC1Lf15g");
+define("WECHAT_URL", 'http://115.173.207.75/weizanv300/api.php?id=12');
+define('WECHAT_TOKEN', 'DD1680IaMQ78NnZ87Mzh89IH3Q96I1AI');
+define('ENCODING_AES_KEY', "na7sgH5hd547DZ7411i5xa75811j5wh1xIEn77eNR41");
 
 /*
  * 开发者配置
