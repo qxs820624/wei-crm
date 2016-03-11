@@ -1,0 +1,61 @@
+﻿		<div class="layout">
+			<div class="navbar">
+				<div class="container">			
+					<div class="navbar-body">
+						<div class="main-drop float-left">
+							<span class="main-drop-title">信息分类 <span class="arrow"></span></span>
+							<div class="main-drop-menu out-index">
+								<php>$k = 0;</php>
+								<foreach name="channelmeans" key="key" item="item">
+								<php>$k++;</php>
+								<dl>
+									<dt><a href="<{:U('life/main',array('channel'=>$key))}>"><{$item}></a></dt>
+									<dd class="sub-nav">
+										<php>$i=0;</php>
+										<foreach name="cates" item="var">
+										<if condition="$var['channel_id'] eq $k">
+										<php>$i++;</php>
+										<if condition="$i lt 5">
+										<a href="<{:U('life/main',array('channel'=> $k,'cat'=>$var['cate_id']))}>"><{$var['cate_name']}></a>
+										</if>
+										</if>
+										</foreach>
+									</dd>
+									<dd class="pop-nav">
+										<span><{$item}></span>
+										<ul>
+											<foreach name="cates" item="var">
+											<if condition="$var['channel_id'] eq $k">
+											<li><a href="<{:U('life/main',array('channel'=> $k,'cat'=>$var['cate_id']))}>"><{$var['cate_name']}></a></li>
+											</if>
+											</foreach>
+										</ul>
+									</dd>
+									<span class="icon icon-angle-right"></span>
+								</dl>
+								</foreach>
+							</div>
+						</div>
+						<ul class="nav nav-inline nav-menu">
+
+							<li class="navLi"><a <if condition="$ctl eq  'index'"> class="navA  on"<else/>class="navA"</if> title="首页" href="<{:U('pchome/index/index')}>" >首页</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'tuan'"> class="navA  on"<else/>class="navA"</if> title="抢购" href="<{:U('pchome/tuan/nearby')}>" >抢购</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'huodong'"> class="navA  on"<else/>class="navA"</if> title="活动" href="<{:U('pchome/huodong/index')}>" >活动</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'shop'"> class="navA  on"<else/>class="navA"</if> title="商家" href="<{:U('shop/index')}>" >商家</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'mall'"> class="navA  on"<else/>class="navA"</if> title="商城" href="<{:U('pchome/mall/main')}>" >商城</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'ele'"> class="navA  on"<else/>class="navA"</if> title="外卖" href="<{:U('pchome/ele/index')}>" >外卖</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'ding'"> class="navA  on"<else/>class="navA"</if> title="订座" href="<{:U('pchome/ding/index')}>" >订座</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'life'"> class="navA  on"<else/>class="navA"</if> title="分类" href="<{:U('pchome/life/main')}>" >分类</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'coupon'"> class="navA  on"<else/>class="navA"</if> title="券" href="<{:U('pchome/coupon/index')}>" >领劵</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'news'"> class="navA  on"<else/>class="navA"</if> title="新闻" href="<{:U('news/index')}>" >新闻</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'lifeservice'"> class="navA  on"<else/>class="navA"</if> title="券" href="<{:U('lifeservice/index')}>" >预约</a></li>
+<li class="navLi"><a <if condition="$ctl eq  'community'"> class="navA  on"<else/>class="navA"</if> title="券" href="<{:U('community/index')}>" >小区</a></li>
+
+						</ul>
+						<if condition="$ctl eq 'index'">
+						<div class="navbar-text navbar-right"><a class="dialogs" href="javascript:;" data-toggle="click" data-target="#shop-cate" data-mask="1" data-width="60%"><i class="icon icon-bars"></i> 选商家</a></div>
+						</if>
+					</div>
+				</div>
+			</div>
+		</div>
