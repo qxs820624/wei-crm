@@ -1,0 +1,3 @@
+<?php
+//000000021600a:2:{i:0;a:11:{s:5:"ad_id";s:3:"110";s:7:"site_id";s:2:"38";s:7:"city_id";s:1:"1";s:5:"title";s:6:"电器";s:8:"link_url";s:22:"/shop/index/cat/7.html";s:5:"photo";s:28:"2015/10/05/56128d0723ea5.jpg";s:4:"code";s:0:"";s:7:"bg_date";s:10:"2015-01-01";s:8:"end_date";s:10:"2020-01-01";s:6:"closed";s:1:"0";s:7:"orderby";s:1:"1";}i:1;a:11:{s:5:"ad_id";s:3:"111";s:7:"site_id";s:2:"38";s:7:"city_id";s:1:"1";s:5:"title";s:6:"抢购";s:8:"link_url";s:28:"/shop/detail/shop_id/76.html";s:5:"photo";s:28:"2015/10/05/56128cfbd816c.jpg";s:4:"code";s:0:"";s:7:"bg_date";s:10:"2015-01-01";s:8:"end_date";s:10:"2020-01-01";s:6:"closed";s:1:"0";s:7:"orderby";s:1:"2";}}
+?>
