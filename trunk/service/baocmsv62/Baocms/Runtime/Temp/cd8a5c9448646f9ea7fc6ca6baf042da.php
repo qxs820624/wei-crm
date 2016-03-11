@@ -1,0 +1,3 @@
+<?php
+//000000086400a:3:{i:1;a:10:{s:7:"cate_id";s:1:"1";s:9:"cate_name";s:12:"休闲零食";s:9:"parent_id";s:1:"0";s:7:"select1";s:0:"";s:7:"select2";s:0:"";s:7:"select3";s:0:"";s:7:"select4";s:0:"";s:7:"select5";s:0:"";s:7:"orderby";s:1:"1";s:4:"rate";s:1:"0";}i:2;a:10:{s:7:"cate_id";s:1:"2";s:9:"cate_name";s:16:"糖果/巧克力";s:9:"parent_id";s:1:"1";s:7:"select1";s:0:"";s:7:"select2";s:0:"";s:7:"select3";s:0:"";s:7:"select4";s:0:"";s:7:"select5";s:0:"";s:7:"orderby";s:1:"1";s:4:"rate";s:2:"10";}i:3;a:10:{s:7:"cate_id";s:1:"3";s:9:"cate_name";s:9:"巧克力";s:9:"parent_id";s:1:"2";s:7:"select1";s:13:"单选字段1";s:7:"select2";s:13:"单选字段2";s:7:"select3";s:13:"单选字段3";s:7:"select4";s:13:"单选字段4";s:7:"select5";s:13:"单选字段5";s:7:"orderby";s:1:"1";s:4:"rate";s:2:"10";}}
+?>
