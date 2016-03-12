@@ -1,0 +1,66 @@
+[2016-01-08 10:56:52] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_web_channel' doesn't exist
+SELECT * FROM `shopwwi_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-01-08 10:56:52] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_groupbuy' doesn't exist
+SELECT * FROM `shopwwi_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1452221811' ) AND ( end_time > '1452221811' ) ORDER BY recommended desc LIMIT 4  
+[2016-01-08 10:56:52] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_cms_special' doesn't exist
+SELECT * FROM `shopwwi_cms_special` WHERE ( special_type = '2' ) ORDER BY special_id desc LIMIT 2  
+[2016-01-08 10:56:52] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_p_xianshi_goods' doesn't exist
+SELECT * FROM `shopwwi_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1452221811' ) AND ( end_time > '1452221811' ) ORDER BY xianshi_recommend desc LIMIT 6  
+[2016-01-08 10:56:52] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_evaluate_goods' doesn't exist
+SELECT * FROM `shopwwi_evaluate_goods` ORDER BY geval_id desc LIMIT 1000  
+[2016-01-08 10:56:52] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_web' doesn't exist
+SELECT * FROM `shopwwi_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2016-01-08 10:58:10] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_web_channel' doesn't exist
+SELECT * FROM `shopwwi_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-01-08 10:58:10] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_groupbuy' doesn't exist
+SELECT * FROM `shopwwi_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1452221889' ) AND ( end_time > '1452221889' ) ORDER BY recommended desc LIMIT 4  
+[2016-01-08 10:58:10] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_cms_special' doesn't exist
+SELECT * FROM `shopwwi_cms_special` WHERE ( special_type = '2' ) ORDER BY special_id desc LIMIT 2  
+[2016-01-08 10:58:10] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_p_xianshi_goods' doesn't exist
+SELECT * FROM `shopwwi_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1452221889' ) AND ( end_time > '1452221889' ) ORDER BY xianshi_recommend desc LIMIT 6  
+[2016-01-08 10:58:10] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_evaluate_goods' doesn't exist
+SELECT * FROM `shopwwi_evaluate_goods` ORDER BY geval_id desc LIMIT 1000  
+[2016-01-08 10:58:10] / ( act=index&op=index ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_web' doesn't exist
+SELECT * FROM `shopwwi_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2016-01-08 10:58:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-01-08 10:58:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_admin' doesn't exist
+SELECT * FROM `shopwwi_admin` as `admin`  WHERE  admin_name = 'admin' and admin_password = '4eab05a1c8b5461b60aae5214f400b2c'
+[2016-01-08 10:58:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '00000000005' ) LIMIT 1  
+[2016-01-08 10:58:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '00000000005' ) LIMIT 1  
+[2016-01-08 10:58:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+INSERT  INTO `shopwwi_lock` (pid,pvalue,expiretime) VALUES ('00000000005','1','1452222514')
+[2016-01-08 10:58:47] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-01-08 10:58:47] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_admin' doesn't exist
+SELECT * FROM `shopwwi_admin` as `admin`  WHERE  admin_name = 'admin' and admin_password = '7fef6171469e80d32c0559f88b377245'
+[2016-01-08 10:58:47] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '00000000005' ) LIMIT 1  
+[2016-01-08 10:58:47] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '00000000005' ) LIMIT 1  
+[2016-01-08 10:58:47] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+INSERT  INTO `shopwwi_lock` (pid,pvalue,expiretime) VALUES ('00000000005','1','1452222526')
