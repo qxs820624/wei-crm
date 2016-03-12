@@ -1,0 +1,16 @@
+<?php
+/**
+ * 支付宝返回地址
+ *
+ * 
+ * @网店运维 (c) 2015-2018 ShopWWI Inc. (http://www.goodziyuan.com)
+ * @license    http://www.shopwwi.c om
+ * @link       http://www.goodziyuan.com/
+ * @since      网店运维提供技术支持 授权请购买shopnc授权
+ */
+error_reporting(7);
+$_GET['act']	= 'payment';
+$_GET['op']		= 'return';
+$_GET['payment_code'] = 'alipay';
+require_once(dirname(__FILE__).'/../../../index.php');
+?>
