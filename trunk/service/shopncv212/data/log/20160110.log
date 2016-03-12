@@ -1,0 +1,72 @@
+[2016-01-10 17:33:04] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-01-10 17:33:04] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_admin' doesn't exist
+SELECT * FROM `shopwwi_admin` as `admin`  WHERE  admin_name = 'admin' and admin_password = '7fef6171469e80d32c0559f88b377245'
+[2016-01-10 17:33:04] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:33:04] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:33:04] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+INSERT  INTO `shopwwi_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1452418983')
+[2016-01-10 17:35:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-01-10 17:35:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_admin' doesn't exist
+SELECT * FROM `shopwwi_admin` as `admin`  WHERE  admin_name = 'admin' and admin_password = '7fef6171469e80d32c0559f88b377245'
+[2016-01-10 17:35:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:35:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:35:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+INSERT  INTO `shopwwi_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1452419118')
+[2016-01-10 17:35:39] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-01-10 17:35:39] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_admin' doesn't exist
+SELECT * FROM `shopwwi_admin` as `admin`  WHERE  admin_name = 'admin' and admin_password = '7fef6171469e80d32c0559f88b377245'
+[2016-01-10 17:35:39] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:35:39] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:35:39] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+INSERT  INTO `shopwwi_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1452419139')
+[2016-01-10 17:35:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-01-10 17:35:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_admin' doesn't exist
+SELECT * FROM `shopwwi_admin` as `admin`  WHERE  admin_name = 'admin' and admin_password = '7fef6171469e80d32c0559f88b377245'
+[2016-01-10 17:35:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:35:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+SELECT * FROM `shopwwi_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2016-01-10 17:35:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'shopwwi.shopwwi_lock' doesn't exist
+INSERT  INTO `shopwwi_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1452419151')
+[2016-01-10 18:39:48] /member/index.php?act=login&op=usersave&inajax=1 ( act=login&op=usersave ) 
+ERR: Db Error: Unknown column 'invite_one' in 'field list'
+INSERT  INTO `shopwwi_member` (member_id,member_name,member_passwd,member_email,member_time,member_login_time,member_old_login_time,member_login_ip,member_old_login_ip,member_truename,member_qq,member_sex,member_avatar,member_qqopenid,member_qqinfo,member_sinaopenid,member_sinainfo,invite_one,invite_two,invite_three) VALUES (NULL,'dede168','460bd53c93984a21b9da65b6a9c80196','admin@dede168.com','1452422387','1452422387','1452422387','127.0.0.1','127.0.0.1',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0','0','0')
+[2016-01-10 18:40:04] /member/index.php?act=login&op=usersave&inajax=1 ( act=login&op=usersave ) 
+ERR: Db Error: Unknown column 'invite_one' in 'field list'
+INSERT  INTO `shopwwi_member` (member_id,member_name,member_passwd,member_email,member_time,member_login_time,member_old_login_time,member_login_ip,member_old_login_ip,member_truename,member_qq,member_sex,member_avatar,member_qqopenid,member_qqinfo,member_sinaopenid,member_sinainfo,invite_one,invite_two,invite_three) VALUES (NULL,'dede168','460bd53c93984a21b9da65b6a9c80196','admin@dede168.com','1452422403','1452422403','1452422403','127.0.0.1','127.0.0.1',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0','0','0')
+[2016-01-10 18:40:38] /member/index.php?act=login&op=usersave&inajax=1 ( act=login&op=usersave ) 
+ERR: Db Error: Unknown column 'invite_one' in 'field list'
+INSERT  INTO `shopwwi_member` (member_id,member_name,member_passwd,member_email,member_time,member_login_time,member_old_login_time,member_login_ip,member_old_login_ip,member_truename,member_qq,member_sex,member_avatar,member_qqopenid,member_qqinfo,member_sinaopenid,member_sinainfo,invite_one,invite_two,invite_three) VALUES (NULL,'dede168','460bd53c93984a21b9da65b6a9c80196','admin@dede168.com','1452422437','1452422437','1452422437','127.0.0.1','127.0.0.1',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0','0','0')
+[2016-01-10 18:41:07] /member/index.php?act=login&op=usersave&inajax=1 ( act=login&op=usersave ) 
+ERR: Db Error: Unknown column 'invite_one' in 'field list'
+INSERT  INTO `shopwwi_member` (member_id,member_name,member_passwd,member_email,member_time,member_login_time,member_old_login_time,member_login_ip,member_old_login_ip,member_truename,member_qq,member_sex,member_avatar,member_qqopenid,member_qqinfo,member_sinaopenid,member_sinainfo,invite_one,invite_two,invite_three) VALUES (NULL,'dede168','460bd53c93984a21b9da65b6a9c80196','admin@admin.com','1452422466','1452422466','1452422466','127.0.0.1','127.0.0.1',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0','0','0')
